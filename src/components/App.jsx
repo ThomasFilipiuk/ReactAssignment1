@@ -9,10 +9,7 @@ function App() {
     <div>
       <Header />
       <Footer />
-      <Note 
-          title = "This is the title"
-          content = "This is the content"
-      />
+      <dl>{notes.map(Note)}</dl>
     </div>
   );
 }
